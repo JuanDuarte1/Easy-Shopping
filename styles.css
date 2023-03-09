@@ -8,15 +8,15 @@
   color: #5D5D7D;
 }
 
-.wrapper {
+body {
   height: 100vh;
-  width: 76.5vw;
+  width: 100vw;
 }
 
 .container-left {
   display: inline-block;
   width: 60%;
-  margin: 136px;
+  margin: 140px;
   margin-top: 20%;
 }
 
@@ -26,14 +26,15 @@
   height: 100vh;
   width: 40%;
   position: absolute;
+  margin-top: 20px;
 }
 
 
 img {
-  position: relative;
-  top: 25%;
-  right: 130px;
-  
+  position: static;
+  display: block;
+  max-width: 90%;
+  padding: 40px;
 }
 
 h1 {
